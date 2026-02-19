@@ -1,6 +1,7 @@
-def fact(a):
-    if(a == 0 or a == 1):
+def factorial(n):
+    if(n==0 or n==1):
         return 1
-    return fact(a-1) * a
+    else:
+        return factorial(n-1) * n
 
-print(fact(4))
+print(factorial(5))
