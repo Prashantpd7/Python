@@ -1,13 +1,24 @@
-# with open("Chatgpt.txt","r") as f:
-#     data = f.read()
+name = "Prashant"
+print(f"My name is {name}")
 
-# new_data = data.replace("Hello","Hii")
-# print(new_data)
+print("Name: {}, Age: {}".format("Prashant", 20))
 
-# with open("Chatgpt.txt",'w') as f:
-#     f.write(new_data)
+print("Hello\nWorld")
 
-a = 5
-b = 7.9
-c = a + b
-print(int(c))
+print("Hello\tWorld")
+
+print("He said \"Hello\"")
+
+print("\"hello world\"")
+
+print("C:\\Users\\Prashant")
+
+print(r"C:\Users\Prashant")
+
+text = """Hello
+I am learning Python
+This is multi-line"""
+
+print(text)
+
+print("Hello\\World")
